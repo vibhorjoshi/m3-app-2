@@ -7,7 +7,15 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - type: Label
+    properties: {}
+    name: label_1
+    layout_properties: {grid_position: 'AZYMBG,LKMPWI'}
+  - type: TextBox
+    properties: {}
+    name: text_box_1
+    layout_properties: {grid_position: 'ONJOGR,OYBJXI'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
